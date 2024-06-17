@@ -1087,13 +1087,13 @@ files = [
 
 [[package]]
 name = "inline-snapshot"
-version = "0.9.0"
+version = "0.10.2"
 description = "golden master/snapshot/approval testing library which puts the values right into your source code"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "inline_snapshot-0.9.0-py3-none-any.whl", hash = "sha256:90deee9be342a270d07d95049e525c609f9e84319e6f9d1506ae19aa2973f8d5"},
-    {file = "inline_snapshot-0.9.0.tar.gz", hash = "sha256:5f1c4f0fbf7bcbc0d05dc43822032ed4b954d3f20b01868bde7feda8d7c38817"},
+    {file = "inline_snapshot-0.10.2-py3-none-any.whl", hash = "sha256:f61d42f0d4bddd2a3efae041f5b168e94ac2df566cbf2c67a26d03d5f090835a"},
+    {file = "inline_snapshot-0.10.2.tar.gz", hash = "sha256:fb3c1410a08c9700ca838a269f70117760b024d99d6193661a8b47f8302b09cd"},
 ]
 
 [package.dependencies]
@@ -1101,6 +1101,7 @@ asttokens = ">=2.0.5"
 black = ">=23.3.0"
 click = ">=8.1.4"
 executing = ">=2.0.0"
+rich = ">=13.7.1"
 toml = ">=0.10.2"
 types-toml = ">=0.10.8.7"
 
@@ -3194,4 +3195,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "28569362ae4d469cbb095d6d221a0c765ccdc45d6d024f5741a663e6ca5f012c"
+content-hash = "c3d57b56fa4683eb521549a8d6c5124b51881ceb7692371d92d84d040e243e98"
